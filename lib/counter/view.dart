@@ -16,7 +16,7 @@ class CounterPage extends StatelessWidget {
             .of(context)
             .colorScheme
             .inversePrimary,
-        title: Text('my first aplication',),
+        title: const Text('my first aplication',),
       ),
       body: Center(
         child: Column(
@@ -39,7 +39,7 @@ class CounterPage extends StatelessWidget {
                 TextButton(onPressed: logic.incrementCounter,
                   child: const Icon(Icons.add),
                 ),
-                SizedBox(width: 100,),
+                const SizedBox(width: 100,),
                 TextButton(onPressed: logic.decrementCounter,
                   child: const Icon(Icons.minimize),
                 ),
